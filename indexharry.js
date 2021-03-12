@@ -31,7 +31,9 @@ class Programmer extends Employee{
     }
     static favoriteLanguage(){
         if (this.language == 'python'){
-            return 'Py2thon';
+            return 'Python';
+        }else {
+            return "js"
         }
 
     }
